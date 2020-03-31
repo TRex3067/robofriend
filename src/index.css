@@ -5,8 +5,24 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  background: linear-gradient(to right,#012B35,#447784)
 }
-
+@media only screen and (max-width:400px){
+  h1.lego{
+    font-size: 10vw;
+  }
+}
+@font-face {
+  font-family: 'SEGA LOGO FONT';
+  font-style: normal;
+  font-weight: normal;
+  src: local('SEGA LOGO FONT'), url('SEGA.woff') format('woff');
+}
+h1.lego {
+  font-family: 'SEGA LOGO FONT';
+  font-weight: 200;
+  color: #0ccac4
+}
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
