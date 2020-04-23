@@ -2,7 +2,7 @@
   "name": "robofriend",
   "version": "0.1.0",
   "private": true,
-  "homepage": "http://TRex3067.github.io/reactRobo",
+  "homepage": "http://TRex3067.github.io/roboFriend",
   "dependencies": {
     "@testing-library/jest-dom": "^4.2.4",
     "@testing-library/react": "^9.5.0",
